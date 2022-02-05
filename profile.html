@@ -8,6 +8,27 @@
     </head>
     <script type="text/javascript">
         
+             while(true)
+            {
+             password=prompt("請輸入密碼")
+             if(password=='109206511'){
+                break;
+             }
+             else if(password==null){
+                yes=confirm("確定退出?")
+                if(yes){
+                    window.history.back();
+                    break;
+                }
+                else{
+                    continue;
+                }
+            }
+             else{
+                alert("答錯囉! 再試一次")
+             }
+            }
+        
         function show(pageName){
         var req=new XMLHttpRequest();
         req.open("get","https://doiya3.github.io/"+pageName+".html");
