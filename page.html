@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <meta charset="utf-8"/>
+        <title>秘密通道</title>
+        <link rel="stylesheet" type="text/css" href="page.css"/>
+    </head>
+    <script type="text/javascript">
+      
+    function video(){
+      var video=document.getElementById("video");
+         if(video.style.display=="none"){
+            video.style.display="block";
+         }else{
+                video.style.display="none";
+            }
+        }
+
+    </script>
+  <body>    
+    <header>
+      <div id="logo">WELCOME</div>
+      <div id="menu">
+        <ul>
+          <li id="menu_list"><a href="http://127.0.0.1:8887/profile.html">PROFILE</a></li>
+          <li id="menu_list"><a href="https://www.instagram.com/yunchieh0216/?hl=zh-tw">INSTAGRAM</a></li>
+          <li id="video_list" onclick="video();">VIDEO</li>
+        </ul>
+      </div>
+      <div id="videosize">
+        <video id="video" controls style="display: none;">
+        <source src="Shelter.mp4"type="video/mp4" />
+        </video>
+      </div>
+    </header>
+  </body>
+</html>
