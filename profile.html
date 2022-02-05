@@ -10,7 +10,7 @@
         
         function show(pageName){
         var req=new XMLHttpRequest();
-        req.open("get","http://127.0.0.1:8887/"+pageName+".html");
+        req.open("get","https://doiya3.github.io/"+pageName+".html");
         req.onload=function(){
             var content=document.getElementById(pageName);
             content.innerHTML=this.responseText;
