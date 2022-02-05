@@ -6,6 +6,11 @@ body
     background-size: cover;
 }
 
+ul
+{
+    life-style:none;
+}
+
 #logo
 {
     margin-top: 5%;
