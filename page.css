@@ -33,7 +33,7 @@ ul
     font-size: 50px;
     color:aqua;
     margin: 15px;
-    
+    text-align: center;
 }
 
 a
@@ -48,31 +48,7 @@ a:hover
     background-color:#fafafa;
     color:gray;
 }
-#video_list
-{
-    color: aqua;
-    font-size: 50px;
-    margin: 15px;
-}
-#video_list:hover
-{
-    text-decoration:underline;
-    background-color:#fafafa;
-    color:gray;
-}
 
-#videosize
-{
-    display:flex;
-    justify-content:center;
-    align-items:center; 
-} 
-
-#video
-{
-    width: 480px;
-    height: 270px;
-}
 
 @media(max-width:1250px)
 {
