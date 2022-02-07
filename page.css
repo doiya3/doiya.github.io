@@ -6,16 +6,12 @@ body
     background-size: cover;
 }
 
-ul
-{
-    list-style:none;
-}
 
 #logo
 {
     margin-top: 5%;
-    margin-bottom: 1%;
-    font-size: 100px;
+    margin-bottom: 5%;
+    font-size: 120px;
     color:white;
     display:flex;
     justify-content:center;
@@ -23,17 +19,22 @@ ul
 
 #menu
 {
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
 }
 
 #menu_list
 {
-    font-size: 50px;
-    color:aqua;
-    margin: 15px;
     text-align: center;
+    width:25%;
+    font-size: 80px;
+    color:aqua;
+    
+}
+
+#notyet
+{
+    text-decoration:line-through red ;
 }
 
 a
@@ -54,12 +55,31 @@ a:hover
 {
     #logo
     {
-        font-size: 80px;
+        font-size: 100px;
     }
 
     #menu_list
     {
-        font-size: 50px;
+        font-size: 60px;
+    }
+
+}
+
+@media(max-width:875px)
+{
+    #logo
+    {
+        font-size: 80px;
+    }
+
+    #menu
+    {
+        flex-wrap: wrap;
+    }
+    
+    #menu_list
+    {
+        width:70%;
     }
 
 }
@@ -68,13 +88,13 @@ a:hover
 {
     #logo
     {
-        margin-top: 10%;
-        font-size: 50px;
+        margin-top: 15%;
+        font-size: 70px;
     }
 
     #menu_list
     {
-        font-size: 35px;
+        font-size: 60px;
     }
 
 }
