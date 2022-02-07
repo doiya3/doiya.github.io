@@ -8,6 +8,17 @@ tr
     text-align:center;
 }
 
+p
+    {
+        margin:20px;
+        margin-top: 0px;
+        font-size: 25px;
+    }
+#s
+    {
+        color:brown;
+    }
+
 #Head
 {
     display:flex;
@@ -24,7 +35,7 @@ tr
 
 #title
 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bolder;
     text-align: center;
     padding:15px;
@@ -44,20 +55,21 @@ tr
 
 #Td
 {
-    font-size: 25px;
+    font-size:30px;
     padding:3px;
-    width:20px;
-    height:30px;
+    width:30px;
+    height:35px;
 }
 
 #td
 {
     width:100px;
-    height: 30px;
+    height: 35px;
+    font-size:25px;
 }
 #border
 {
-    width:400px;
+    width:480px;
 }
 #part2-2
 {
@@ -65,7 +77,10 @@ tr
     display:flex;
     justify-content: center;
 }
-
+#s
+{
+    color:brown;
+}
 #hobby
 {
     padding:30px;
@@ -79,16 +94,14 @@ tr
 
 #part3-1
 {
-    width:60%; 
-    font-size:20px;
+    width:50%; 
     display:flex;
     justify-content: center;
 }
 
 #part3-2
 {
-    width:60%; 
-    font-size:20px;
+    width:50%; 
     display:flex;
     justify-content: center;  
 }
@@ -156,10 +169,13 @@ tr
 
 @media(max-width:875px)
 { 
+    #title
+    {
+        font-size: 30px;
+    }
     #Td
     {
         font-size: 25px;
-        padding:3px;
         width:20px;
         height:30px;
     }
@@ -168,6 +184,12 @@ tr
     {
         width:100px;
         height: 30px;
+        font-size: 20px;
+    }
+
+    #border
+    {
+        width:400px;
     }
 }
 @media(max-width:500px)
@@ -175,35 +197,25 @@ tr
 
     #head
     {
-        font-size:30px;
+        font-size:40px;
 
-    }
-
-    #title
-    {
-        font-size: 25px;
     }
 
     #border
     {
         
-        width:280px;
+        width:300px;
     }
     #Td
     {
-        font-size:18px;
+        font-size:20px;
         padding:0;
     }
 
     #td
     {
-        font-size: 16px;
+        font-size: 18px;
         padding:0;
-    }
-
-    #hobby
-    {
-        font-size:15px;
     }
 
     #school
