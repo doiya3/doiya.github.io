@@ -10,7 +10,7 @@
         
         function show(pageName){
         var req=new XMLHttpRequest();
-        req.open("get","http://192.168.121.226:525/Front%20End/www/profile/"+pageName+".html");
+        req.open("get","+pageName+".html");
         req.onload=function(){
             var content=document.getElementById(pageName);
             content.innerHTML=this.responseText;
