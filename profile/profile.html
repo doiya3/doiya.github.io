@@ -1,0 +1,126 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <meta charset="utf-8"/>
+        <title>個人資料</title>
+        <link rel="stylesheet" type="text/css" href="profile.css"/>
+    </head>
+    <script type="text/javascript">
+        
+        function show(pageName){
+        var req=new XMLHttpRequest();
+        req.open("get","http://192.168.121.226:525/Front%20End/www/profile/"+pageName+".html");
+        req.onload=function(){
+            var content=document.getElementById(pageName);
+            content.innerHTML=this.responseText;
+        };
+        req.send();
+        }
+
+    </script>
+    <body>
+        <div id="Head">
+            <div id="head">個人介紹</div>
+        </div>
+        <hr/>
+
+        <div id="part2">
+            <div id="part2-1">
+                <div>
+                    <div id="title">個人資料</div>
+                    <table id="border" cellpadding="10" border='1'>
+                        <tr>
+                            <td id="Td">匿名</td>
+                            <td id="td">幸運結</td>
+                        </tr>
+                        <tr>
+                            <td id="Td">生日</td>
+                            <td id="td">2月16日</td>
+                        </tr>
+                        <tr>
+                            <td id="Td">身高</td>
+                            <td id="td">176cm</td>
+                        </tr>
+                        <tr>
+                            <td id="Td" onclick="show('real');">三圍</td>
+                            <td id="td"><span id="real"><span id="fade"><button onclick="show('fade');">" 點擊觀看 "</button></span></span></td>
+                        </tr>
+                        <tr>
+                            <td id="Td">職業</td>
+                            <td id="td">大學的廢學渣</td>
+                        </tr>
+                        <tr>
+                            <td id="Td">感情</td>
+                            <td id="td">可憐的母胎單身</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="part2-2">
+                <div>
+                    <div id="title">興趣</div>
+                    <p>
+                        除了像這個隨隨便便的<span id="s">網頁設計以及打程式</span>以外，也很喜歡<span id="s">打球和健身</span>這類運動，
+                        球類方面，尤其是<span id="s">排球</span>，特別喜歡，從高中開始打到現在快將近五年了，曾經還進去高中校隊打過，除此之
+                        外也非常喜歡<span id="s">追劇、看電影、動漫、漫畫以及讀小說</span>，雖然最近很忙，也不太能找到喜歡的作品，但還是會
+                        不定期更新一下，除此之外偶而也會當個追星族到處追，也因為這樣最近開始<span id="s">學日語和韓語</span>，隨然現在沒那
+                        麼擅長就是了，不過相信之後可以達到跟英文能力一樣的程度。除此之外我很喜歡<span id="s">觀察大自然，養些小動物</span>
+                        之類的，不過種類似乎不太討大家的喜歡就是了。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr/>
+        
+        <div id="part3">
+            <div id="part3-1">
+                <div>
+                    <div id="title">敬請期待</div>
+                    <div>---</div>
+                </div>
+            </div>
+            <div id="part3-2">
+                <div>
+                    <div id="title">敬請期待</div>
+                    <div>---</div>
+                </div>
+            </div>
+        </div>
+        <hr/>
+        
+        <div id="part4">
+
+            <div id="part4-1">
+                <div id="title">目前就讀學校/系所:</div>
+                <table id="school">
+                <tr>
+                    <td> 
+                        <a href="https://www.ncu.edu.tw/tw/index.html"><img src="https://www.ncu.edu.tw/_images/all/logo.png"/></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://www.dop.ncu.edu.tw/ch"><img src="http://www.dop.ncu.edu.tw/template/ch//images/com-logo.png"/></a>
+                    </td>
+                </tr>
+                </table>
+            </div>
+            <div id="part4-2">
+                <div id="title">社群軟體</div>
+                <table id="social">
+                <tr>
+                    <td>
+                        <a href="https://www.instagram.com/yunchieh0216/?hl=zh-tw">Instagram</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://facebook.com/people/%E8%BE%9B%E6%98%80%E5%80%A2/100006692071295/">Facebook</a>
+                    </td>
+                </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
