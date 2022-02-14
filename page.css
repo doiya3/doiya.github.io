@@ -2,17 +2,17 @@ body
 {
     margin:0px;
     padding:0px;
-    background:#fff url('753588.png') center center fixed no-repeat;
+    background:#fff url('background.png') center center fixed no-repeat;
     background-size: cover;
 }
 
 
 #logo
 {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 7%;
+    margin-bottom: 7%;
     font-size: 120px;
-    color:white;
+    color:blue;
     display:flex;
     justify-content:center;
 }
@@ -28,7 +28,7 @@ body
     text-align: center;
     width:25%;
     font-size: 80px;
-    color:aqua;
+    color:purple;
     
 }
 
@@ -39,7 +39,6 @@ body
 
 a
 {
-    color:aqua;
     text-decoration:none;
 }
 
@@ -60,6 +59,7 @@ a:hover
     #menu
     {
         flex-wrap: wrap;
+        
     }
     
     #menu_list
@@ -74,8 +74,9 @@ a:hover
 {
     #logo
     {
-        margin-top: 15%;
+        margin-top: 25%;
         font-size: 70px;
+        margin-bottom: 25%;
     }
 
     #menu_list
