@@ -4,20 +4,9 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
         <meta charset="utf-8"/>
         <title>個人資料</title>
-        <link rel="stylesheet" type="text/css" href="profile-1.css"/>
+        <link rel="stylesheet" type="text/css" href="profile.css"/>
     </head>
     <script type="text/javascript">
-        
-        function show(pageName){
-        var req=new XMLHttpRequest();
-        req.open("get","http://140.115.213.85:525/Front%20End/www/profile/"+pageName+".html");
-        req.onload=function(){
-            var content=document.getElementById(pageName);
-            content.innerHTML=this.responseText;
-        };
-        req.send();
-        }
-
     </script>
     <body>
         <header>
