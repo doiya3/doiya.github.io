@@ -13,6 +13,6 @@ if ( !file_exists($file) or filesize($file) == 0 )
 else
    readfile($file);  // 讀取和顯示留言
 ?><br/>
-| <a href="guest.php">新增留言</a> |
+| <a href="index.php">新增留言</a> |
 </body>
 </html>
