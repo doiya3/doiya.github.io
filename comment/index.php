@@ -27,7 +27,7 @@ if ( isset($_POST["Name"]) ) {
 ?>
 </head>
 <body>
-<form action="guest.php" method="post">
+<form action="index.php" method="post">
 <table border="1">
   <tr>
     <td><font size="2">姓名:</font></td>
