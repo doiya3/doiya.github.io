@@ -85,14 +85,6 @@ header,nav{
     text-align: center;
 }
 
-#down{
-    display:flex;
-    justify-content: space-around;
-    background-color: #95bddb;
-}
-
-
-
 @media(max-width:700px){
 
     #menu li{
@@ -162,8 +154,4 @@ header,nav{
         height:180px;
     }
 
-    #down{
-        flex-wrap: wrap;
-        text-align: center;
-    }
 }
